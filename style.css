@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: #dadada 1px solid;
+  margin: 100px 450px;
+  padding: 30px;
+  justify-content: center;
+  gap: 10px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+img {
+  width: 100px;
+  height: 80px;
+  border: #dadada solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.input-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-area {
+  border: 1px;
+  border-radius: 5px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card.selected {
+  background-color: aquamarine;
+}
+
+.validation {
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+.expiry-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.CVV {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input {
+  height: 30px;
+  padding: 5px 14px;
+  border: #dadada 1px solid;
+  border-radius: 10px;
+}
+
+.btn-submit {
+  background-color: #0000ff;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  border: 1px transparent solid;
+  border-radius: 40px;
+  margin-top: 10px;
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+}
+
+.table {
+  border: 1px solid;
+  padding: 0;
+  margin: 20px 40px;
+}
